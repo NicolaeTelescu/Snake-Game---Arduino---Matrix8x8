@@ -4,8 +4,8 @@ void afisari()
   /*
   while(xPoint != 0 && yPoint != 0)
   {
-    xPoint = random(0,  7);
-    yPoint = random(0,  7);
+    xPoint = random(0,7);
+    yPoint = random(0,7);
   }
   */
   /* 
