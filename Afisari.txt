@@ -105,7 +105,7 @@ void afisari()
   }
   */
 
-  // anunta ca ai murit
+  // Anunta ca ai murit
   /*
   for (int i = 0 ; i < 8 ; i++)
   {
