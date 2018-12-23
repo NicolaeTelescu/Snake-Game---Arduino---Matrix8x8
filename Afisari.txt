@@ -1,0 +1,167 @@
+void afisari()
+{
+  // in setup
+  /*
+  while(xPoint != 0 && yPoint != 0)
+  {
+    xPoint = random(0,7);
+    yPoint = random(0,7);
+  }
+  */
+  /* 
+  Serial.print(xPoint);
+  Serial.print("\nAna\n");
+  Serial.print(yPoint);
+  Serial.print("\nAna\n\n");
+  */
+  
+  // afiseaza matrice
+  /*for (int i = 0 ; i < 8 ; i++)
+  {
+    for (int j = 0 ; j < 8 ; j++)
+    {
+      matrice.setLed(0, i, j, true);
+      asteapta(25);
+    }
+  }
+  for (int i = 0 ; i < 8 ; i++)
+  {
+    for (int j = 0 ; j < 8 ; j++)
+    {
+      matrice.setLed(0, i, j, false);
+      asteapta(25);
+    }
+  }*/
+
+  // dupa schimbarea pozitiei Joystick-ului
+  /*Serial.print(JoyStickX);
+  Serial.print(" ");
+  Serial.print(JoyStickY);
+  Serial.print(" ");
+  Serial.print(mutare(x,y,coadaLuiSnake[0].x,coadaLuiSnake[0].y));
+  Serial.print("\n");
+  /* 
+  Serial.print("x = ");
+  Serial.print(x);
+  Serial.print("   ");
+  Serial.print("y = ");
+  Serial.print(y);
+  Serial.print("\n");
+  
+  Serial.print("xAnt = ");
+  Serial.print(coadaLuiSnake[0].x);
+  Serial.print("   ");
+  Serial.print("yAnt = ");
+  Serial.print(coadaLuiSnake[0].y);
+  Serial.print("\n");*/
+
+  // afiseaza Snake
+  /*   
+  for (int i = 0 ; i < lungime; i++)
+  {
+    Serial.print(coadaLuiSnake[i].x);
+    Serial.print(" ");
+    Serial.print(coadaLuiSnake[i].y);
+    Serial.print("\n");
+  }
+  Serial.print("\n");
+  */
+
+  // afiseaza pozitia Joystick-ului
+  /*   
+  Serial.print("X-axis: ");
+  Serial.print(analogRead(PINJOYSTICKX));
+  Serial.print("\n");
+  Serial.print("Y-axis: ");
+  Serial.println(analogRead(PINJOYSTICKY));
+  Serial.print("\n\n");
+  */
+
+  // pe unde se mai plimba Snake
+  /*
+  Serial.print("x = ");  
+  Serial.print(x);
+  Serial.print("\n");
+  Serial.print("y = ");  
+  Serial.print(y);
+  Serial.print("\n");
+  */
+
+  // afiseaza cifre
+  /*     
+  for (int k = 0 ; k < 10 ; k++)
+  {
+    for (int i = 0 ; i < 8 ; i++)
+    {
+      for (int j = k * 4 ; j < (k + 1) * 4 ; j++)
+      {
+        if (cifre[i][j] == 1)
+          matrice.setLed(0, i, j - k * 4, true);
+        else
+          matrice.setLed(0, i, j - k * 4, false);
+      }
+    }
+    asteapta(2000);
+  }
+  */
+
+  // anunta ca ai murit
+  /*
+  for (int i = 0 ; i < 8 ; i++)
+  {
+    for (int j = 0 ; j < 8 ; j++)
+    {
+      Serial.print(whereIsSnake[i][j]);
+      Serial.print(" ");
+    }
+    Serial.print("\n");
+  }
+  Serial.print("Ai murit !\n");
+  Serial.print(x);
+  Serial.print(" ");
+  Serial.print(y);
+  Serial.print("\n\n\n");
+  */
+
+  // dupa ce prinde marul
+  /*
+  Serial.print("A fost bun marul ?\n");
+  for (int i = 0 ; i < lungime ; i++)
+  {
+    Serial.print(coadaLuiSnake[i].x);
+    Serial.print(" ");
+    Serial.print(coadaLuiSnake[i].y);
+    Serial.print("\n");
+  }
+  Serial.print("\n");
+  */
+
+  // am facut o miscare corecta cu Joystick-ul
+  /*
+  Serial.print("Am facut cu Joystick-ul o mutare corecta\n");
+  Serial.print("Snake este pe coordonatele : ");
+  Serial.print("x = ");  
+  Serial.print(x);
+  Serial.print(" ; ");
+  Serial.print("y = ");  
+  Serial.print(y);
+  Serial.print("\n");
+  Serial.print("Mutarea aferenta este ");
+  Serial.print(mutare(x,y,coadaLuiSnake[0].x,coadaLuiSnake[0].y));
+  Serial.print("\n");
+  */
+
+  // m-am intors, dar nu aveam voie
+  /* x si y trebuie sa ramana aceleasi coordonate, insa eu le-am schimbat in functia miscaJoyStick asa ca trebuie sa le actualizez din nou
+  x = coadaLuiSnake[0].x;
+  y = coadaLuiSnake[0].y;
+  Serial.print("M-am intors, dar nu aveam voie\n");
+  // Te poti intoarce si poti manca marul, dar aici nu ai mancatul marului...
+  */
+
+  // nu am miscat Joystickul
+  /* Serial.print("Nu am miscat Joystick-ul\n"); */
+
+  // delimitez afisarile pe pasi
+  /* Serial.print("\n"); */
+}
