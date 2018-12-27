@@ -2,7 +2,7 @@ void afisari()
 {
   // in setup
   /*
-  while(xPoint != 0 && yPoint != 0)
+  while(xPoint != 0  && yPoint != 0)
   {
     xPoint = random(0,7);
     yPoint = random(0,7);
