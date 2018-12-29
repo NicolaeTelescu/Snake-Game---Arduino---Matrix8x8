@@ -410,7 +410,6 @@ void primesteCoordonateJoyStick()
     int JoyStickY = analogRead(PIN_JOYSTICK_Y);
   
     int schimbat = 0; // schimbat pozitie Joystick
-    // sunt mult mai usor de vazut valorile decat sa le pun alte nume de variabila
     if (JoyStickX < 200)
     {
       x1 = scade(x);
